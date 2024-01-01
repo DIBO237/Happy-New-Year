@@ -22,6 +22,7 @@ function updateCountdown() {
         loop()
         document.getElementById("countdown").style.display = "none";
         document.getElementById("typedtext").style.display = "block";
+        typewriter()
         //document.getElementById("happyNewYear2").style.display = "block";
     }
 }
@@ -254,7 +255,7 @@ var aText = new Array(
      }
     }
 
-document.addEventListener('DOMContentLoaded', typewriter());
+//document.addEventListener('DOMContentLoaded', typewriter());
 
 document.addEventListener("DOMContentLoaded", function() {
     updateCountdown();
